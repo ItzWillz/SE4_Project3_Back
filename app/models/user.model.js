@@ -21,7 +21,7 @@ module.exports = (sequelize, Sequelize) => {
     permission: {
       type: Sequelize.STRING,  
       allowNull: true,
-      default: "student",
+      defaultValue: "student",
     },
   },
   {
